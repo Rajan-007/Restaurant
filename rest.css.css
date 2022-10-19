@@ -70,7 +70,7 @@ i{
 .tag1{
     font-size: 2.7em;
     color:#7fff00;
-    text-shadow: 5px 0px rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
     padding-left: 1.2em;
     font-family:'Times New Roman', Times, serif;
 }
@@ -79,14 +79,14 @@ i{
     font-size: 2.5em;
     font-weight: bold;
     color: #7fff00;
-    text-shadow: 3px 2px 8px #000/* rgb(36, 179, 7)  */;
+    text-shadow: 3px 2px 5px #000/* rgb(36, 179, 7)  */;
     padding-left: 1.3em;
 }
 .tag3{
     font-size: 2.3em;
     font-weight: bolder;
     color:rgba(240, 4, 4, 0.938);
-    text-shadow: 1px 1px 2px #f0ebeb;
+    text-shadow: 1px 1px 2px #aca9a9;
     padding-left: 1.7em;
 }
 body{
@@ -265,16 +265,19 @@ nav a:hover{
         padding-bottom: .8em;
         padding-top: .8em;
     }
+    
     .landing .tag1{
         font-size: 2em;
     }
     .landing .tag2{
-        font-size: 1.8em;
-        text-shadow: 3px 3px #000;
+        font-size: 1.9em;
+       
     }
     .landing .tag3{
         font-size: 1.5em;
-        text-shadow: 3px 3px 40px #000,-1px 1px rgb(168, 7, 243);
+    }
+    .landing{
+        row-gap: 1em;
     }
     .about img{
         width:60%;
@@ -339,25 +342,25 @@ nav a:hover{
          margin: 1rem;
     }
     .landing .tag1{
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     .landing .tag2{
-        font-size: 1.3em;
-        text-shadow: 3px 3px #000;
+        font-size: 1.5em;
+        font-weight: 500;
     }
     .landing .tag3{
         font-size: 1.2em;
-        text-shadow: 3px 3px 40px #000,-1px 1px rgb(168, 7, 243);
+        margin-left: 1em;
     }
     .about img{
         width:60%;
         border:7px solid #F4F4F4;   
     }
     nav a:hover{
-        background-color:  rgba(252, 251, 249, 0.692);
+        background-color:  #f0a70bd0;
         color:#000;
         border-radius: 2px;
-        border: 3px solid rgb(90, 70, 70);
+        border: 3px solid #fff;
         
     }
     .foot{
@@ -374,7 +377,6 @@ nav a:hover{
         display: flex;
         align-items: center;
         justify-content:center; 
-       
     }
     .foot span{
         font-size: 1.2rem;
